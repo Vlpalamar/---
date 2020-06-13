@@ -43,10 +43,12 @@ public:
 	bool operator<=(Fraction b);
 	bool operator!=(Fraction b);
 	bool operator==(Fraction b);
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	Fraction operator++();
 	Fraction operator++(int);
 	Fraction operator--();
 	Fraction operator--(int);
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 };
 
 inline int Fraction::getCh() {
